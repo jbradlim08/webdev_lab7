@@ -1,19 +1,64 @@
-nav{
-    width: 100%;
+body{
+    margin: 0px;
 }
 
-nav h1{
+#nav {
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    padding: 0;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+
+    z-index: 1;
+    box-shadow: 0px 0px 7px;
+    align-items: center;
+}
+
+#nav:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+#nav h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
-    float: left;
-    left: 100%;
+    padding-left: 10px;
+
+    /*right end*/
+    margin-right: auto;
 }
 
-nav li{
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    float: right;
+    align-items: center;
+
+    /*left end*/
+    margin-left: auto;
+}
+
+#nav ul li {
+    display: inline;
+    margin-right: 20px; /* Add some spacing between list items */
+}
+
+#nav ul li a {
     text-decoration: none;
-    float: left;
-    text-align: center;
-    right: 100%;
+    color: black;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav ul li a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+table{
+    margin: 10px;
 }
 
 td, th{
@@ -21,6 +66,10 @@ td, th{
     font-size: 20px;
     padding: 5px;
     font-weight: bold;
+}
+
+td:nth-child(n+2):hover {
+    background-color: rgb(235, 235, 235);
 }
 
 td a, th a{
