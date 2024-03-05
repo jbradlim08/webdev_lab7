@@ -1,0 +1,45 @@
+nav{
+    width: 100%;
+}
+
+nav h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    float: left;
+    left: 100%;
+}
+
+nav li{
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    right: 100%;
+}
+
+td, th{
+    border: 1px solid;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+td a, th a{
+    text-decoration: none;
+    color: black;
+}
+
+td a:hover, th a:hover{
+    text-decoration: underline;
+    color: rgb(107, 107, 107);
+}
+
+td img{
+    width: 150px;
+    transition: width 2s;
+    transition-delay: 1s;
+}
+
+td img:hover{
+    width: 200px;
+}
+
